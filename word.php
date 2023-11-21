@@ -3,8 +3,7 @@
 
 $bad_word = $_POST ['word'];
 
-var_dump($_POST);
+// var_dump($_POST);
 
 ?>
-
-<h2>La parola da censurare è <?php echo $bad_word; ?></h2>
+<h3>La parola da censurare è:<h1><?php echo $bad_word; ?></h1></h3>
